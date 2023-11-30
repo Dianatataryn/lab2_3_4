@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.aboutus.css">
+    <title>About us</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Welcome to the Radiance & Elegance</h1>
+            <div class="conteiners">
+                <nav class="nav">
+
+                    <input type="search" class="search" placeholder="Пошук">
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a href="index.html" class="nav-list-link">Home page</a></li>
+                        <li class="nav-list-item"><a href="catalog.html" class="nav-list-link">Catalog</a></li>
+                        <li class="nav-list-item"><a href="registration.html" class="nav-list-link">Registration</a>
+                        </li>
+                        <li class="nav-list-item"><a href="aboutus.html" class="nav-list-link">About us</a></li>
+                    </ul>
+
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle nav-list-link" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home page</a></li>
+                            <li><a class="dropdown-item" href="catalog.html">Catalog</a></li>
+                            <li><a class="dropdown-item" href="registration.html">Registration</a></li>
+                            <li><a class="dropdown-item" href="aboutus.html">About us</a></li>
+                            <li><a class="dropdown-item" href="#"><button type="button" class="btn"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                        Sign in
+                                    </button></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="about">
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+                    style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalCenterTitle">Вхід</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteiners">
+                    <h2 class="section-title">About us</h2>
+
+
+
+                    <ul class="about-list">
+                        <li class="about-item1 color">
+                            <p class="text-about">Від найкращих світових брендів до унікальних місцевих виробників, у
+                                нас ви знайдете все, що потрібно для повноцінного догляду за собою та створення
+                                стильного макіяжу.</p>
+                        </li>
+                        <li class="about-item2 color">
+                            <p class="text-about"> Ми ретельно відбираємо продукти, які не тільки надають неймовірні
+                                результати, але й є доброзичливими до навколишнього середовища.</p>
+                        </li>
+                        <li class="about-item3 color">
+                            <p class="text-about">Наші фахівці готові допомогти вам обрати ідеальні засоби для вашого
+                                типу шкіри та стилю, а також надати корисні поради з догляду за собою.</p>
+                        </li>
+                        <li class="about-item4 color">
+                            <p class="text-about">Ми завжди прагнемо радувати наших клієнтів, тому у нас часті знижки,
+                                бонуси та подарунки.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="coments">
+                <h3 class="section-title">Leave a comment</h3>
+                <div class="conteiners">
+                    <div class="mb-3 cont">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3 cont">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your comment</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button class="comments-link">Submit</>
+                    </div>
+
+                </div>
+                <h3 class="section-title">Comments</h3>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="image/ava1.jfif" alt="" class="swiper-img">
+                            <h4 class="swiper-title">Аліна</h4>
+                            <p class="swiper-text">Прекрасний вибір косметики! Я завжди знаходжу тут щось нове для себе.
+                                Якість продукції на висоті, і обслуговування клієнтів також вражає. Дякую за ваші поради
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="image/ava2.jfif" alt="" class="swiper-img">
+                            <h4 class="swiper-title">Марія</h4>
+                            <p class="swiper-text">Люблю ваш магазин за різноманіття косметичних брендів. Тут завжди
+                                можна знайти щось для будь-якого типу шкіри. Ваші консультанти завжди готові допомогти з
+                                вибором.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="image/ava3.jfif" alt="" class="swiper-img">
+                            <h4 class="swiper-title">Юля</h4>
+                            <p class="swiper-text">Завжди раджу друзям обирати косметику саме в цьому магазині. Широкий
+                                асортимент, приємні ціни і чудова атмосфера. Здесь завжди відчувається професійний
+                                підхід до краси!</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="image/ava4.jfif" alt="" class="swiper-img">
+                            <h4 class="swiper-title">Зіна</h4>
+                            <p class="swiper-text">Купувала тут своє улюблене засіб для догляду за шкірою, і я вражена
+                                результатом. Якість вашої косметики вражає.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer class="footer">
+            <h2>Контакти</h2>
+            <p>Зв'яжіться з нами за адресою: florencedi@email.com</p>
+            <p>Телефон: +380765372734</p>
+            <p>Адреса: вул. Пилипа Орлика, 7 </p>
+            <p>&copy; 2023 Radiance & Elegance</p>
+        </footer>
+        <a href="#top" class="btn-top"><svg class="svg-up" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                fill="white" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+            </svg></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
